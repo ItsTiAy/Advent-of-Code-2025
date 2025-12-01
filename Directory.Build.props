@@ -1,0 +1,5 @@
+<Project>
+  <ItemGroup Condition=" '$(MSBuildProjectName)' != 'Helpers' ">
+    <ProjectReference Include="..\Helpers\Helpers.fsproj" />
+  </ItemGroup>
+</Project>
